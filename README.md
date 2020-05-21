@@ -8,13 +8,14 @@ height: 100%;
 margin: 0;
 }
  
-.bg
+.bg-image {
  background-image: url("https://imgur.com/a/2A0IqSC");
 height: 100%;
  
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+}
  
 <meta name= "viewport" content="width=device-width, initial-scale=1">
  
@@ -26,3 +27,8 @@ body {
 </style>
  
 </head>
+<body text=white>
+<div class="bg-image"></div>
+
+<div class="bg">
+<p>This is an html template I'm experimenting with</p>
