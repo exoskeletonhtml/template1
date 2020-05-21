@@ -6,6 +6,10 @@
 body, html {
 height: 100%;
 margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+{
+ box-sizing: border-box;
 }
  
 .bg-image {
